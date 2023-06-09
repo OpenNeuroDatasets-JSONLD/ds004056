@@ -3,12 +3,34 @@
         "Levels": {
             "F": "Female",
             "M": "Male"
-        }
-    }, 
-     "age": {
-        "Description": "Age in years"
         },
-   "hand": {
-        "Description": "Dominant hand, R = Right"
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:Sex",
+                "Label": ""
+            },
+            "Levels": {
+                "F": {
+                    "TermURL": "snomed:248152002",
+                    "Label": ""
+                },
+                "M": {
+                    "TermURL": "snomed:248153007",
+                    "Label": ""
+                }
+            }
         }
+    },
+    "age": {
+        "Description": "Age in years",
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:Age",
+                "Label": ""
+            }
+        }
+    },
+    "hand": {
+        "Description": "Dominant hand, R = Right"
+    }
 }
