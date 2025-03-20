@@ -19,7 +19,8 @@
                     "Label": ""
                 }
             }
-        }
+        },
+        "Description": "There should have been a description here, but there wasn't. :("
     },
     "age": {
         "Description": "Age in years",
